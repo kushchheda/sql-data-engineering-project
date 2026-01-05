@@ -56,15 +56,15 @@ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── data_architecture               # This file shows the project's high-level architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow                       # This file shows the data flow diagram
-│   ├── data_integration                # This file shows how the source datasets are related
-│   ├── data_layer_process              # This file shows the steps we will follow in each of the layers
-│   ├── data_layer_structure            # This file shows the overview of the three layers
-│   ├── data_model                      # This file shows the data model (star schema)
+├── docs/                               # Project documentation and architecture details (view in order)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_layer_structure            # (1) This file shows the overview of the three layers
+│   ├── data_layer_process              # (2) This file shows the steps we will follow in each of the layers
+│   ├── data_architecture               # (3) This file shows the project's high-level architecture
+│   ├── data_flow                       # (4) This file shows the data flow diagram
+│   ├── data_integration                # (5) This file shows how the source datasets are related
+│   ├── data_model                      # (6) This file shows the final data model (star schema)
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
